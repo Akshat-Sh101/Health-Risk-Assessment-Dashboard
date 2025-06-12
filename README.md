@@ -1,10 +1,7 @@
 # Health Risk Assessment Dashboard
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Akshat-Sh101/Health-Risk-Assessment-Dashboard)
-![GitHub last commit](https://img.shields.io/github/last-commit/Akshat-Sh101/Health-Risk-Assessment-Dashboard)
 ![License](https://img.shields.io/github/license/Akshat-Sh101/Health-Risk-Assessment-Dashboard)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![React](https://img.shields.io/badge/React-18.2-blue)
 
 ## Overview
 The Health Risk Assessment Dashboard is a web-based application that leverages machine learning to assess and visualize health risks based on user-provided data. Designed for healthcare providers, insurers, or individuals, it offers an intuitive interface to input health metrics and view predictive risk scores through interactive visualizations.
@@ -17,11 +14,10 @@ The Health Risk Assessment Dashboard is a web-based application that leverages m
 - **Exportable Results**: Save or export risk assessment reports.
 
 ## Technologies Used
-- **Frontend**: React.js, Chart.js, HTML, CSS, JavaScript
+- **Frontend**: React.js, HTML, CSS, JavaScript
 - **Backend**: Python (Flask)
 - **Machine Learning**: Scikit-learn (Logistic Regression, Support Vector Machine), NumPy, Pandas
-- **Database**: [e.g., SQLite or MongoDB, if applicable]
-- **Other Tools**: Git, Docker (optional)
+- **Other Tools**: Git
 
 ## Installation
 1. **Clone the Repository**:
@@ -57,7 +53,7 @@ The Health Risk Assessment Dashboard is a web-based application that leverages m
 1. Launch the application and navigate to the dashboard.
 2. Input health data (e.g., age, blood pressure, cholesterol levels) via forms.
 3. The backend processes data using Logistic Regression or SVM models to predict health risks.
-4. View results in interactive charts, powered by Chart.js and NumPy-based data processing.
+4. View results in interactive charts and NumPy-based data processing.
 5. Export reports for further analysis.
 
 ## Machine Learning Implementation
@@ -65,20 +61,6 @@ The Health Risk Assessment Dashboard is a web-based application that leverages m
 - **Support Vector Machine (SVM)**: Employed for complex, non-linear risk prediction tasks.
 - **NumPy & Pandas**: Handle data preprocessing, feature engineering, and numerical computations.
 - Models are trained on sample health datasets (e.g., synthetic or open-source health data).
-
-## Project Structure
-```
-Health-Risk-Assessment-Dashboard/
-├── src/                    # React frontend source code
-├── backend/                # Python Flask backend with ML models
-│   ├── models/             # Logistic Regression and SVM model scripts
-│   ├── data/               # Sample datasets or preprocessing scripts
-├── public/                 # Static files (images, favicon)
-├── requirements.txt        # Python dependencies
-├── package.json            # Frontend dependencies
-├── README.md               # This file
-└── .gitignore              # Git ignore file
-```
 
 ## Contributing
 1. Fork the repository.
@@ -96,4 +78,4 @@ For inquiries, contact [Akshat-Sh101](https://github.com/Akshat-Sh101) or open a
 ## Acknowledgments
 - Scikit-learn for ML model implementation
 - Chart.js for data visualization
-- Open-source health datasets (if used)
+- Open-source health datasets 
